@@ -41,7 +41,7 @@ program
 program
     .on('--help', () => {
       // 使用 figlet 绘制 Logo
-      console.log('\r\n' + figlet.textSync('glive2', {
+      console.log('\r\n' + figlet.textSync('bdd', {
         font: 'Ghost',
         horizontalLayout: 'default',
         verticalLayout: 'default',
