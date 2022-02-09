@@ -10,7 +10,6 @@ program
     .description("create a new project")
     .option("-f, --force", "overwrite target directory if it exist")
     .action((name, options) => {
-        console.log("name: ", name, "options: ", options);
         require('../lib/create')(name, options)
     });
 
